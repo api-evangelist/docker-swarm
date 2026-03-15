@@ -1,0 +1,13 @@
+name: Docker Swarm
+description: Native clustering and orchestration solution for Docker containers that
+  turns a pool of Docker hosts into a single virtual host.
+url: https://docs.docker.com/engine/swarm/
+tags:
+- Container Orchestration
+- Clustering
+- Docker
+- DevOps
+created: '2025'
+modified: '2025'
+apis: []
+common: []
