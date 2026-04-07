@@ -8,10 +8,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Container Orchestration
   - Clustering
-  - Docker
+  - Container Orchestration
   - DevOps
+  - Docker
 url: https://docs.docker.com/engine/swarm/
 created: '2025-01-01'
 modified: '2026-03-16'
