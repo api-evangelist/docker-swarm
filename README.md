@@ -1,4 +1,4 @@
-# Docker Swarm (docker-swarm)
+# Docker Swarm
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,34 +66,32 @@
 
 Native clustering and orchestration solution for Docker containers that turns a pool of Docker hosts into a single virtual host. Docker Swarm enables deploying applications across multiple machines and provides high availability and load balancing for containerized workloads.
 
-**URL:** [Visit APIs.json URL](https://docs.docker.com/engine/swarm/)
+**Areas:** Clustering · Container Orchestration · DevOps · Docker
 
-## Scope
+## Docker Swarm on APIs.io
 
-- **Type:** Index 
-- **Position:** Consuming 
-- **Access:** 3rd-Party 
+Everything profiled for Docker Swarm is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/docker-swarm/](https://apis.io/providers/docker-swarm/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+## Where to find this API
 
- - Container Orchestration, Clustering, Docker, DevOps
-
-## Timestamps
-
-- **Created:** 2025-01-01 
-- **Modified:** 2026-03-16 
-
-## APIs
-
-Docker Swarm does not publish a standalone OpenAPI specification. Swarm management endpoints (`/swarm`, `/services`, `/tasks`, `/nodes`, `/secrets`, `/configs`) are part of the Docker Engine API and are tracked in the [`docker`](../docker) repository (`openapi/docker-openapi.yml`, Engine API v1.54).
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Documentation](https://docs.docker.com/engine/swarm/)
-- [Engine API (Swarm endpoints)](https://docs.docker.com/reference/api/engine/version/v1.54/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-**Email:** kin@apievangelist.com
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Docker Swarm: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/docker-swarm/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
